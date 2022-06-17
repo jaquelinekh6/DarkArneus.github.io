@@ -1,7 +1,12 @@
 .titles {
     color: rgb(255, 255, 255);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 45px;
+}
+.subtitles{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;    
 }
 
 .texts {
@@ -18,8 +23,30 @@
     display: inline-block;
   }
 
-.navbar {
-    
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
+
+li.nav {
+    float: left;
+}
+
+li.nav a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.nav a:hover {
+    background-color: green;
+  }
 
   
